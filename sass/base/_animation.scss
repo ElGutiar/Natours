@@ -1,63 +1,63 @@
-@keyframes moveInLeft {
-    0% {
-        opacity: 0;
-        transform: translate(-100px);
-    }
+// @keyframes moveInLeft {
+//     0% {
+//         opacity: 0;
+//         transform: translate(-100px);
+//     }
 
-    80% {
-        transform: translate(10px);
-    }
+//     80% {
+//         transform: translate(10px);
+//     }
 
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
-}
+//     100% {
+//         opacity: 1;
+//         transform: translate(0);
+//     }
+// }
 
-@keyframes moveInRight {
-    0% {
-        opacity: 0;
-        transform: translate(100px);
-    }
+// @keyframes moveInRight {
+//     0% {
+//         opacity: 0;
+//         transform: translate(100px);
+//     }
 
-    80% {
-        transform: translate(-10px);
-    }
+//     80% {
+//         transform: translate(-10px);
+//     }
 
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
-}
+//     100% {
+//         opacity: 1;
+//         transform: translate(0);
+//     }
+// }
 
-@keyframes moveInTop {
-    0% {
-        opacity: 0;
-        transform: translateY(-100px);
-    }
+// @keyframes moveInTop {
+//     0% {
+//         opacity: 0;
+//         transform: translateY(-100px);
+//     }
 
-    80% {
-        transform: translateY(10px);
-    }
+//     80% {
+//         transform: translateY(10px);
+//     }
 
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
-}
+//     100% {
+//         opacity: 1;
+//         transform: translate(0);
+//     }
+// }
 
-@keyframes moveInBottom {
-    0% {
-        opacity: 0;
-        transform: translateY(50px);
-    }
+// @keyframes moveInBottom {
+//     0% {
+//         opacity: 0;
+//         transform: translateY(50px);
+//     }
 
-    80% {
-        transform: translateY(-10px);
-    }
+//     80% {
+//         transform: translateY(-10px);
+//     }
 
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
-}
+//     100% {
+//         opacity: 1;
+//         transform: translate(0);
+//     }
+// }
