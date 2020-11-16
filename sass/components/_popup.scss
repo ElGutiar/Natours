@@ -9,6 +9,7 @@
     opacity: 0;
     visibility: hidden;
     transition: all .3s;
+    box-sizing: content-box;
 
     &__content {
         @include centralHorizontal;
@@ -20,24 +21,33 @@
         overflow: hidden;
         opacity: 0;
         transform: translate(-50%, -50%) scale(0);
-        transition: all .4s .2s;
     }
 
     &__left {
         width: 33.33333%;
         display: table-cell;
+
+        @include respond(tab-land) {
+            width: 40%
+        }
     }
 
     &__right {
-        width: 66.66667%;
+        width: 66.6666%;
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
+
+        @include respond(tab-land) {
+            width: 60%;
+            padding: 0 3rem;
+        }
     }
 
     &__img {
         display: block;
         width: 100%;
+        height: auto;
     }
 
     &__text {
